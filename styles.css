@@ -213,6 +213,48 @@ h3 {
 
 
 
+.email {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: 22px;
+}
+
+
+.fa-square-facebook {
+	color: blue;
+	float: right;
+	font-size: 35px;
+	margin-top: -20px;
+	margin-right: 60px;
+	padding-bottom: 55px;
+}
+
+
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	overflow: hidden;
+	height: 70px;
+	margin-top: 5px;
+	background-color: black;
+}
+
+.end{
+	color: white;
+	font-family: sans-serif;
+	font-size: 19px;
+	font-weight: 800;
+	margin-left: 50px;
+	padding-top: 15px;
+}
+
+
+
+
+
 
 
 @media only screen and (max-width: 915px) {
