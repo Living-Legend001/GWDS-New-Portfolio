@@ -152,7 +152,7 @@ h3 {
 	text-align: center;
 	height: 70px;
 	
-	margin-top: -70px;
+	margin-top: -280px;
 }
 
 
@@ -505,6 +505,13 @@ ul li {
 
 
 @media only screen and (max-width: 480px) {
+	.main-container {	
+	margin-top: 350px;
+
+
+}
+
+
 .container-carrier {
 	justify-content: center;
 	gap: 60px;
@@ -544,14 +551,14 @@ ul li {
 
 
 .last-footer {
-	position: fixed;
+	position: absolute
 	padding-top: 25px;
 	width: 100%;
 	overflow: hidden;
 	text-align: center;
-	height: 90px;
+	height: 80px;
 	background-color: black;
-	margin-top: 680px;
+	margin-top: -230px;
 }
 
 
@@ -563,6 +570,34 @@ ul li {
    margin-left: 34px;
    margin-top: 3px;
 }
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+h1 {
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 900;
+	text-align: center;
+	padding-top: -5px;
+	padding-bottom: -52px;
+	font-size: 40px;
+	margin-left: -110;
+}
+
+h3 {
+	color: rgb(210, 173, 78);
+	font-family: sans-serif;
+	font-weight: 800;
+	text-align: center;
+	padding-top: -10px;
+	font-size: 20px;
+	margin-left: -110;
+}
+
+
 }
 
 
@@ -619,6 +654,35 @@ h3 {
 	font-size: 20px;
 	margin-left: -50px;
 }
+
+
+.last-footer {
+	position: absolute
+	padding-top: 25px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	height: 80px;
+	background-color: black;
+	margin-top: -280px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 430px) {
+	.last-footer {
+	position: absolute
+	padding-top: 25px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	height: 80px;
+	background-color: black;
+	margin-top: -290px;
+}
+
 }
 
 
