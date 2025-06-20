@@ -54,7 +54,7 @@ ul a {
 
 
 ul li {
-	float: left;
+	float: right;
 	list-style: none;
 	padding: 20px;
 	margin-top: 20px;
@@ -134,7 +134,7 @@ h3 {
 	font-family: sans-serif;
 	font-size: 15px;
 	font-weight: 600;
-	margin-left: 22px;
+	margin-left: -64px;
 }
 
 
@@ -142,6 +142,7 @@ h3 {
 .fa-square-facebook {
 	color: #0000ff;
 	padding-bottom: -19px;
+	margin-left: -56px;
 	font-size: 30px;
 }
 
@@ -263,6 +264,25 @@ footer {
 	padding: 15px;
 	
 	transition: all ease-in-out .5s;
+}
+
+
+
+
+.email {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: -19px;
+}
+
+
+
+.fa-square-facebook {
+	color: #0000ff;
+	padding-bottom: -19px;
+	margin-left: -10px;
+	font-size: 30px;
 }
 
 .seek2 {
@@ -462,9 +482,18 @@ nav {
     width: 150px;
 	height: 150px;
 	padding: 15px;
-	
 	transition: all ease-in-out .5s;
 }
+
+
+
+.email {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: 1px;
+}
+
 
 .seek2 {
 	margin-top: 20px;
@@ -514,6 +543,23 @@ ul li {
 	margin-top: 350px;
 
 
+}
+
+
+.email {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: -10px;
+}
+
+
+
+.fa-square-facebook {
+	color: #0000ff;
+	padding-bottom: -19px;
+	margin-left: -10px;
+	font-size: 30px;
 }
 
 
@@ -771,6 +817,15 @@ h3 {
 	font-size: 20px;
 	margin-left: -100px;
 }
+
+
+.email {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: 8px;
+}
+
 
 
 }
